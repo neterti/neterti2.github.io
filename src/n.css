@@ -41,7 +41,7 @@ body {
 
     /* background image options */
     --background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url(''); /* url of the background image */
+    --background-image-url: url('https://github.com/neterti/neterti.github.io/blob/main/80fe1c4dc0994232bf13c1216cba5632.jpg'); /* url of the background image */
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
