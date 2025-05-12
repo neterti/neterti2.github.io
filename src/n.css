@@ -16,6 +16,7 @@ body {
     --border-hover-transition: 0.2s ease;
 }
 
+.visual-refresh {
     /* panel separation */
     .guilds_c48ade /* server list */, 
     .sidebarList_c48ade /* channel list (includes dm list) */,
