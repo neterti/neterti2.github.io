@@ -544,7 +544,7 @@ body {
 
 /* background-image.css */
 body {
-    --background-image-url: url('');
+    --background-image-url: url('https://i.pinimg.com/736x/59/9d/82/599d82fe605ffa4b9afb530d6d48ba1f.jpg');
 }
 
 @property --background-image {
@@ -1335,28 +1335,6 @@ body {
         }
         div[style='display: flex; justify-content: center; align-items: center; border-radius: 5px; background-color: rgb(67, 162, 90); height: 10px; width: 25px;'] {
             background-color: var(--online) !important;
-        }
-
-        /* fix radio bar button colors */
-        .radioBar__001a7[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
-            --radio-bar-accent-color: var(--yellow-2) !important;
-        }
-        .radioBar__001a7[style='--radio-bar-accent-color: var(--green-360); padding: 10px;'] {
-            --radio-bar-accent-color: var(--green-2) !important;
-        }
-        .radioBar__001a7[style='--radio-bar-accent-color: var(--red-400); padding: 10px;'] {
-            --radio-bar-accent-color: var(--red-2) !important;
-        }
-
-        #vc-spotify-player {
-            --vc-spotify-green: var(--accent-2);
-        }
-        .barFill_a562c8 {
-            background-color: var(--accent-2) !important;
-        }
-
-        .vcd-screen-picker-option-radio[data-checked='true'] .defaultColor__4bd52 {
-            color: var(--text-0);
         }
     }
 
