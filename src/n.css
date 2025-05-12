@@ -16,7 +16,7 @@ body {
     --border-hover-transition: 0.2s ease;
 }
 
-.visual-refresh {
+.visual-refresh{
     /* panel separation */
     .guilds_c48ade /* server list */, 
     .sidebarList_c48ade /* channel list (includes dm list) */,
@@ -411,7 +411,7 @@ body {
         border: 1px solid var(--border-subtle);
     }
     .root__24502 {
-        background: transparent;
+        background: none;
     }
 
     /* remove unnecessary backgrounds */
@@ -420,6 +420,7 @@ body {
     body {
         background: transparent !important;
     }
+}
 
 body {
     --font-primary: var(--font), 'gg sans';
@@ -481,7 +482,7 @@ body {
 
 /* background-image.css */
 body {
-    --background-image-url: url('https://i.pinimg.com/736x/59/9d/82/599d82fe605ffa4b9afb530d6d48ba1f.jpg');
+    --background-image-url: url('');
 }
 
 @property --background-image {
@@ -571,7 +572,7 @@ body {
 @container body style(--custom-chatbar: separated) {
     .visual-refresh {
         .chatContent_f75fb0 {
-            background: transparent;
+            background: none;
             border-radius: 0;
             border: none;
             backdrop-filter: none;
@@ -636,7 +637,7 @@ body {
             }
         }
         .stackedBars__74017 {
-            background: transparent !important;
+            background: none !important;
         }
         .wrapper__44df5 {
             margin: var(--gap) 0 0 0;
@@ -744,46 +745,46 @@ body {
         --alert-bg: red;
         --autocomplete-bg: var(--bg-3);
 
-        --background-accent: transparent;
-        --background-floating: transparent;
-        --background-nested-floating: transparent;
-        --background-mentioned: transparent;
-        --background-mentioned-hover: transparent;
-        --background-message-automod: transparent;
-        --background-message-automod-hover:transparent;
-        --background-message-highlight: transparent;
-        --background-message-highlight-hover: transparent;
-        --background-message-hover: transparent;
+        --background-accent: var(--bg-2);
+        --background-floating: var(--bg-3);
+        --background-nested-floating: var(--bg-4);
+        --background-mentioned: var(--mention);
+        --background-mentioned-hover: var(--mention-hover);
+        --background-message-automod: red;
+        --background-message-automod-hover: red;
+        --background-message-highlight: var(--reply);
+        --background-message-highlight-hover: var(--reply-hover);
+        --background-message-hover: var(--message-hover);
 
-        --background-primary: transparent;
-        --background-secondary: transparent;
-        --background-secondary-alt: transparent;
-        --background-tertiary: transparent;
+        --background-primary: var(--bg-4);
+        --background-secondary: var(--bg-3);
+        --background-secondary-alt: var(--bg-3);
+        --background-tertiary: var(--bg-4);
 
-        --bg-base-primary:transparent; /* screenshare window? */
-        --bg-base-secondary: transparent;
-        --bg-base-tertiary: transparent;
-        --background-mod-subtle: transparent;
-        --background-mod-normal: transparent;
-        --background-mod-strong: transparent;
-        --background-base-low: transparent;
-        --background-base-lower: transparent;
-        --background-base-lowest: transparent;
-        --background-surface-high: transparent;
-        --background-surface-higher: transparent;
-        --background-surface-highest: transparent;
-        --bg-surface-overlay: transparent;
-        --bg-surface-raised: transparent;
-        --chat-background-default: transparent;
-        --chat-text-muted: transparent;
-        --input-background: transparent;
-        --modal-background: transparent;
-        --modal-footer-background: transparent;
+        --bg-base-primary: var(--bg-4); /* screenshare window? */
+        --bg-base-secondary: var(--bg-4);
+        --bg-base-tertiary: var(--bg-3);
+        --background-mod-subtle: var(--hover);
+        --background-mod-normal: var(--active);
+        --background-mod-strong: var(--active-2);
+        --background-base-low: var(--bg-4);
+        --background-base-lower: var(--bg-4);
+        --background-base-lowest: var(--bg-4);
+        --background-surface-high: var(--bg-3);
+        --background-surface-higher: var(--bg-3);
+        --background-surface-highest: var(--bg-3);
+        --bg-surface-overlay: var(--bg-4);
+        --bg-surface-raised: var(--bg-3);
+        --chat-background-default: var(--bg-3);
+        --chat-text-muted: var(--text-5);
+        --input-background: var(--bg-3);
+        --modal-background: var(--bg-4);
+        --modal-footer-background: var(--bg-4);
 
-        --background-modifier-accent: transparent;
-        --background-modifier-active: transparent;
-        --background-modifier-hover: transparent;
-        --background-modifier-selected: transparent;
+        --background-modifier-accent: var(--hover);
+        --background-modifier-active: var(--active);
+        --background-modifier-hover: var(--hover);
+        --background-modifier-selected: var(--active);
 
         --bg-mod-faint: var(--hover);
         --bg-mod-subtle: var(--bg-2);
@@ -1743,5 +1744,4 @@ body {
             gap: 0;
         }
     }
-}
 }
