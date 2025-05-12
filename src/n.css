@@ -16,15 +16,6 @@ body {
     --border-hover-transition: 0.2s ease;
 }
 
-                .guildSeparator__252b6 { display: none; } .searchBar__5ec2f { background-color: transparent; backdrop-filter: blur(5px); } 
-                .itemCard__7e549.wrapper__00943.outer_bf1984.padded_bf1984.interactive_bf1984 { background-color: transparent; backdrop-filter: blur(5px); } 
-                .embedFull__623de { background-color: transparent !important; backdrop-filter: blur(5px); } .footer__4d95d { background: transparent; backdrop-filter: blur(5px); } 
-                .textContainer__4d95d { backdrop-filter: blur(15px) !important; } .container__0f2e8 { background-color: transparent !important; backdrop-filter: blur(5px); } 
-                .panel__5dec7 { background-color: transparent !important; } .scroller__28a87 { background-color: transparent; } .root_bfe55a { background: transparent; } 
-                .wrapper_cb9592 { background: transparent; } .callContainer_cb9592 { background: transparent; } .resizeHandle__01ae2 { background: transparent; } 
-                .container__01ae2 { background: transparent; backdrop-filter: blur(5px); } .chatLayerWrapper__01ae2 { background: transparent; } .channelChatWrapper_cb9592 { background: transparent; }
-                .container_f369db { background: transparent; } .mainCard_f369db { background: transparent; backdrop-filter: blur(5px); } .container_faa96b:hover { background: transparent; backdrop-filter: blur(15px); }}
-
     /* panel separation */
     .guilds_c48ade /* server list */, 
     .sidebarList_c48ade /* channel list (includes dm list) */,
