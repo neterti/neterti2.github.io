@@ -17,8 +17,6 @@
                 .privateChannels__35e86 { background: transparent; } 
                 .scroller__99e7c { background: transparent; } 
                 .children__9293f:after { background: transparent; } 
-                .wrapper_ef3116 { width: var(--server-listing-width); } 
-                .scrollerWrap-1IAIlv { width: calc(var(--server-listing-width) + 6px); } 
                 .wrapper_ef3116 .scroller_ef3116 { display: flex; flex-flow: row wrap; padding-left: 0; align-content: flex-start; }
                 .stack_dbd263 .listItem__650eb:not(.wrapper__48112 .listItem__650eb) { width: initial; padding: 1px; margin: 2px; } 
                 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 .stack_dbd263 { justify-content: center; }
