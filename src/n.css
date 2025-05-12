@@ -419,7 +419,6 @@ body {
     body {
         background: transparent !important;
     }
-}
 
 body {
     --font-primary: var(--font), 'gg sans';
