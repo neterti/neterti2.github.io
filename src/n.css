@@ -17,6 +17,25 @@ body {
 }
 
 .visual-refresh{
+
+                .appMount__51fd7 { background: transparent; background-image: var(--theme-background-image); background-size: cover; }
+                .app__160d8 { background: transparent; } 
+                .bg__960e4 { background: var(--theme-transparency); }
+                .wrapper_ef3116 { background: transparent; } 
+                .panels_c48ade { background: var(--message-box-transparency); backdrop-filter: blur(5px);}
+                .sidebar_c48ade:after { background: transparent; }
+                .container__2637a { background: transparent; } 
+                .chat_f75fb0 { background: transparent; } 
+                .chatContent_f75fb0 { background: transparent; }
+                .themed__9293f { background: transparent; } 
+                .container_c8ffbb { background: transparent; } 
+                .members_c8ffbb { background: transparent; } 
+                .channelTextArea_f75fb0 { background: var(--message-box-transparency); } 
+                .themedBackground__74017 { background: transparent; } 
+                .privateChannels__35e86 { background: transparent; } 
+                .scroller__99e7c { background: transparent; } 
+                .children__9293f:after { background: transparent; } 
+    
     /* panel separation */
     .guilds_c48ade /* server list */, 
     .sidebarList_c48ade /* channel list (includes dm list) */,
@@ -94,7 +113,7 @@ body {
     .clickable_f37cb1,
     .container__2637a /* channel list inner */,
     .header_f37cb1 /* server name */ {
-        background: transparent;
+        background: none;
     }
     .scroller__629e4 /* channel list inner scroller */ {
         margin-bottom: 0;
@@ -122,14 +141,14 @@ body {
 
     .chat_f75fb0 /* chat group outer */ {
         border: none !important;
-        background: transparent;
+        background: none;
     }
     .container__133bf /* friends page group outer */,
     .page_c48ade {
         padding-bottom: var(--gap);
         padding-right: var(--gap);
         border: none !important;
-        background: transparent;
+        background: none;
     }
     .page_c48ade > .chat_f75fb0,
     .page_c48ade > .container__133bf {
@@ -145,7 +164,7 @@ body {
     }
     .title_f75fb0 /* chat titlebar inner */ {
         border: none;
-        background: transparent;
+        background: none;
         margin-bottom: 0;
     }
 
@@ -174,7 +193,7 @@ body {
     }
     .members_c8ffbb /* member list inner */,
     .member_c8ffbb /* member list item */ {
-        background: transparent;
+        background: none;
     }
 
     .resizeHandle__01ae2 /* resize handle */ {
@@ -183,21 +202,21 @@ body {
 
     .privateChannels__35e86 /* dm list */,
     .scroller__99e7c /* dm list inner */ {
-        background: transparent;
+        background: none;
     }
     .scroller__99e7c /* dm list inner */ {
         margin-bottom: 0;
     }
 
     .tabBody__133bf /* online friends + active now group outer */ {
-        background: transparent;
+        background: none;
     }
 
     .nowPlayingColumn__133bf /* active now */ {
         margin-left: var(--gap);
     }
     .container__7d20c /* active now inner */ {
-        background: transparent;
+        background: none;
     }
     .scroller__7d20c /* active now inner */ {
         border: none;
@@ -205,10 +224,10 @@ body {
 
     .homeWrapper__0920e /* nitro page group inner */ {
         border: none;
-        background: transparent;
+        background: none;
     }
     .applicationStore_f07d62 /* nitro page group outer */ {
-        background: transparent;
+        background: none;
     }
 
     .shop__6db1d /* shop */ {
@@ -239,13 +258,13 @@ body {
 
     .container__01ae2 /* vc chat + titlebar group */ {
         border: none;
-        background: transparent;
+        background: none;
     }
     .chat_ee72fa::before /* vc chat shadow */ {
         display: none;
     }
     .channelChatWrapper_cb9592 /* vc chat + titlebar group outer */ {
-        background: transparent;
+        background: none;
     }
 
     .page_c48ade > div > .chatLayerWrapper__01ae2 /* forum/thread chat outer */ {
@@ -257,10 +276,10 @@ body {
     }
 
     .container_fb64c9 /* new thread panel */ {
-        background: transparent;
+        background: none;
     }
     .chat_fb64c9::before /* new thread panel chat shadow */ {
-        display: transparent;
+        display: none;
     }
 
     .container_a592e1 /* server discovery */ {
@@ -271,7 +290,7 @@ body {
     }
 
     .wrapper_cb9592 /* dm vc wrapper */ {
-        background: transparent;
+        background: none;
         margin-bottom: var(--gap);
     }
     .wrapper_cb9592.fullScreen_cb9592 {
@@ -295,10 +314,10 @@ body {
     /* remove excess backgrounds */
     .wrapper_d852db /* message loading placeholders */,
     .wrapper_d852db > .wrapper_fc8177 {
-        background: transparent;
+        background: none;
     }
     .page_c48ade > .chat_f75fb0 /* friend page, server members page */ {
-        background: transparent !important;
+        background: none !important;
     }
 
     .newMessagesBar__0f481 /* unread messages bar */ {
@@ -321,7 +340,7 @@ body {
     }
 
     #vc-spotify-player /* vencord spotify plugin */ {
-        background: transparent;
+        background: none;
     }
 
     /* general chat bar improvements */
@@ -329,7 +348,7 @@ body {
         border-radius: var(--radius-md);
     }
     .themedBackground__74017 /* chat bar inner */ {
-        background: transparent;
+        background: none;
     }
     .slateTextArea_ec4baf /* actual typing area */ {
         margin-left: 2px;
@@ -529,7 +548,7 @@ body {
             top: -24px;
             left: 0;
             right: 0;
-            background-color: transparent;
+            background-color: var(--chat-background-default);
             padding: 0 8px;
             border-radius: var(--radius-md) var(--radius-md) 0 0;
             border: 1px solid var(--chatbar-border-color);
@@ -542,7 +561,7 @@ body {
             border-color: var(--chatbar-border-color) !important;
         }
         .stackedBars__74017 {
-            background: transparent !important;
+            background: none !important;
         }
         .form_f75fb0:has(.base_b88801) {
             .channelTextArea_f75fb0,
@@ -1275,7 +1294,16 @@ body {
             background-color: var(--online) !important;
         }
 
-       
+        /* fix radio bar button colors */
+        .radioBar__001a7[style='--radio-bar-accent-color: var(--yellow-360); padding: 10px;'] {
+            --radio-bar-accent-color: var(--yellow-2) !important;
+        }
+        .radioBar__001a7[style='--radio-bar-accent-color: var(--green-360); padding: 10px;'] {
+            --radio-bar-accent-color: var(--green-2) !important;
+        }
+        .radioBar__001a7[style='--radio-bar-accent-color: var(--red-400); padding: 10px;'] {
+            --radio-bar-accent-color: var(--red-2) !important;
+        }
 
         #vc-spotify-player {
             --vc-spotify-green: var(--accent-2);
@@ -1302,7 +1330,7 @@ body {
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size property) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
-    --dms-background-image-url: url('https://i.pinimg.com/736x/59/9d/82/599d82fe605ffa4b9afb530d6d48ba1f.jpg'); /* url of the background image */
+    --dms-background-image-url: url(''); /* url of the background image */
     --dms-background-image-size: cover; /* size of the background image (css background-size property) */
     --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 }
