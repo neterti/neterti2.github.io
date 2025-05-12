@@ -45,7 +45,6 @@ body {
                  100% { -webkit-filter: hue-rotate(360deg); -moz-filter: hue-rotate(360deg); -ms-filter: hue-rotate(360deg); filter: hue-rotate(360deg); } } .pill_e5445c { width: 100% !important; } 
                 .wrapper__58105 { overflow: visible !important; } 
                 .item__58105 { animation: var(--unread-server-animation) 3s linear infinite; border: 2px solid var(--main-theme-color); background: transparent; display: block; border-radius: 30% !important; position: absolute; transform: none !important; inset: 0 !important; top: -2px !important; left: 2px !important; width: 100%; height: 100% !important; } 
-                .pill_e5445c .item__58105:not([style*="height: 8px"]) { border-color: transparent; background-color: initial; } 
                 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 { justify-content: center; } 
                 .stack_dbd263 { display: flex !important; flex-direction: column !important; flex-flow: row wrap !important; align-items: flex-start !important; } 
                 .tutorialContainer__1f388 { display: flex; justify-content: center; width: 100%; } .stack_dbd263 .wrapper__48112 { width: fit-content !important; }
