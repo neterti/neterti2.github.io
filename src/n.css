@@ -23,8 +23,8 @@ body {
 
 @property --background-image {
     syntax: 'off | on';
-    inherits: false;
-    initial-value: off;
+    inherits: true;
+    initial-value: on;
 }
 
 @container body style(--background-image: on) {
