@@ -16,6 +16,25 @@ body {
     --border-hover-transition: 0.2s ease;
 }
 
+/* background-image.css */
+body {
+    --background-image-url: url('https://i.pinimg.com/736x/59/9d/82/599d82fe605ffa4b9afb530d6d48ba1f.jpg');
+}
+
+@property --background-image {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: off;
+}
+
+@container body style(--background-image: on) {
+    .visual-refresh #app-mount .bg__960e4 {
+        background: var(--background-image-url);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .visual-refresh{
 
                 .appMount__51fd7 { background: transparent; background-image: var(--theme-background-image); background-size: cover; }
