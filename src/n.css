@@ -48,7 +48,7 @@ body {
                 .stack_dbd263 { display: flex !important; flex-direction: column !important; flex-flow: row wrap !important; align-items: flex-start !important; } 
                 .tutorialContainer__1f388 { display: flex; justify-content: center; width: 100%; } .stack_dbd263 .wrapper__48112 { width: fit-content !important; }
                 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 > 
-                .listItem__650eb { margin-bottom: 8px; width: 80%; display: flex; flex-direction: row; flex-flow: row wrap; justify-content: flex-start; align-items: flex-start; } 
+            
                 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2:last-child .listItem__650eb { width: initial; } .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2:last-child 
                 .listItem__650eb .pill__5bc7e { display: none !important; } .wrapper__48112.isExpanded__48112 .listItem__650eb { width: 100% !important; } 
                 .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 > div .listItem__650eb .pill_ed9a5f.wrapper__58105 { display: none !important; } 
