@@ -40,7 +40,7 @@ body {
 
     /* background image options */
     --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url('https://i.pinimg.com/736x/59/9d/82/599d82fe605ffa4b9afb530d6d48ba1f.jpg'); /* url of the background image */
+    --background-image-url: url('https://neterti.github.io/them/naz.jpg'); /* url of the background image */
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
